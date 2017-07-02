@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-body {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Message {
+  color: #188194;
+  padding: 20px;
+  cursor: default;
+  word-wrap: break-word;
+}
+
+.Message:hover {
+  border: 2px dashed #188194;
+  padding: 18px;
+}
+
+.Message:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+input {
+  height: 2em;
+  font-size: 14pt;
+  width: 75%;
+  margin-right: 4%;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  outline-color: #188194;
+}
+
+button {
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: .5em;
+  background-color: #188194;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: box-shadow .2s ease-in-out;
+  border:none; 
+}
+
+button:focus {
+  outline-color: #c7d6d8;
+}
